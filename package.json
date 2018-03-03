@@ -1,0 +1,33 @@
+{
+  "name": "omega",
+  "version": "0.1.0",
+  "description": "Omega: Advanced CryptoCurrency Ticker",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "build": "electron-packager --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r00t1000/omega.git"
+  },
+  "keywords": [
+    "omega",
+    "bitcoin",
+    "cryptocurrency",
+    "crypto"
+  ],
+  "author": "Jacob Jimenez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r00t1000/omega/issues"
+  },
+  "homepage": "https://github.com/r00t1000/omega#readme",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  },
+  "dependencies": {
+    "electron-store": "^1.3.0",
+    "menubar": "^5.2.3"
+  }
+}
